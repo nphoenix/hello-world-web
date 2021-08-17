@@ -1,0 +1,10 @@
+version: "3"
+services:
+        testweb:
+                build: .
+                ports:
+                        - "8080:8080"
+                image: "testweb:latest"
+                container_name: 'tweb'
+
+
